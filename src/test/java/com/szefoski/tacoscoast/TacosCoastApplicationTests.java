@@ -1,13 +1,12 @@
-package com.szefoski.tacocoast;
+package com.szefoski.tacoscoast;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TacoCoastApplicationTests {
+class TacosCoastApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void contextLoads() {
+    }
 }
