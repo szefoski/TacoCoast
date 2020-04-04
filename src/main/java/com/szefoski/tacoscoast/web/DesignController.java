@@ -39,7 +39,7 @@ public class DesignController {
             model.addAttribute(type.toString().toLowerCase(), filterByType(ingredients, type));
         }
 
-        //model.addAttribute("desing", new Taco())
+        model.addAttribute("design", new Taco());
         return "design";
     }
 
@@ -52,7 +52,7 @@ public class DesignController {
 
     @PostMapping("/design")
     public String processDesign(Taco design) {
-
+        log.info("Processing design: " + design);
         return "redirect:/";
     }
 }
